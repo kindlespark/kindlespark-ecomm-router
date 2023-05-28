@@ -16,6 +16,13 @@ router_list = [
         "capacity": "500 mbps",
         "antenna": "Dual",
         "cost": 999.55
+    },
+    {
+        "id": 103,
+        "brand": "D-link",
+        "capacity": "1500 mbps",
+        "antenna": "Dual",
+        "cost": 1999.55
     }
 ]
 
