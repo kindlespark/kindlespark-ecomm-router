@@ -2,7 +2,22 @@ from fastapi import FastAPI
 from router import Router
 
 app = FastAPI()
-router_list = []
+router_list = [
+    {
+        "id": 101,
+        "brand": "TP-Link A5 ",
+        "capacity": "1500 mbps",
+        "antenna": "Dual",
+        "cost": 3399.5
+    },
+    {
+        "id": 102,
+        "brand": "Mi",
+        "capacity": "500 mbps",
+        "antenna": "Dual",
+        "cost": 999.55
+    }
+]
 
 @app.get("/")
 async def router_shop():
